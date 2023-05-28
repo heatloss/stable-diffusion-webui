@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--skip-torch-cuda-test --no-half --use-cpu interrogate"
+#export COMMANDLINE_ARGS="--skip-torch-cuda-test --no-half --use-cpu interrogate"
 
 # python3 executable
 #python_cmd="python3"
@@ -25,7 +25,7 @@ export COMMANDLINE_ARGS="--skip-torch-cuda-test --no-half --use-cpu interrogate"
 #export LAUNCH_SCRIPT="launch.py"
 
 # install command for torch
-export TORCH_COMMAND="pip install torch==1.12.1 torchvision==0.13.1 psutil"
+#export TORCH_COMMAND="pip install torch==1.12.1 torchvision==0.13.1 psutil"
 
 # Requirements file to use for stable-diffusion-webui
 #export REQS_FILE="requirements_versions.txt"
@@ -33,19 +33,19 @@ export TORCH_COMMAND="pip install torch==1.12.1 torchvision==0.13.1 psutil"
 # Fixed git repos
 #export K_DIFFUSION_PACKAGE=""
 #export GFPGAN_PACKAGE=""
-export K_DIFFUSION_REPO="https://github.com/brkirch/k-diffusion.git"
+#export K_DIFFUSION_REPO="https://github.com/brkirch/k-diffusion.git"
 
 # Fixed git commits
 #export STABLE_DIFFUSION_COMMIT_HASH=""
 #export TAMING_TRANSFORMERS_COMMIT_HASH=""
 #export CODEFORMER_COMMIT_HASH=""
 #export BLIP_COMMIT_HASH=""
-export K_DIFFUSION_COMMIT_HASH="51c9778f269cedb55a4d88c79c0246d35bdadb71"
+#export K_DIFFUSION_COMMIT_HASH="51c9778f269cedb55a4d88c79c0246d35bdadb71"
 
 # Uncomment to enable accelerated launch
 #export ACCELERATE="True"
 
 # Enable CPU fallback for missing MPS ops
-export PYTORCH_ENABLE_MPS_FALLBACK=1
+#export PYTORCH_ENABLE_MPS_FALLBACK=1
 
 ###########################################
